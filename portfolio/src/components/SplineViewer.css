@@ -1,0 +1,44 @@
+.init-iframe {
+  width: 100%;
+  margin-right: auto;
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+  height: 100vh;
+  animation: fadeOut 1s ease-out 8s forwards;
+}
+
+#avatar {
+  width: 100%;
+  margin-right: auto;
+  position: absolute;
+  z-index: 3;
+  top: 40%;
+  right: 0;
+  pointer-events: none;
+  height: 50vh;
+  opacity: 1;
+  border-color: none;
+  opacity: 0;
+  animation: fadeIn 2s ease-in 6s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

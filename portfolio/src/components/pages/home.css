@@ -1,0 +1,22 @@
+h1 {
+  font-family: Geneva;
+  font-size: 5rem;
+  margin-top: 0.8em;
+  margin-bottom: 0.3em;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1,
+p {
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: 3;
+  position: relative;
+  pointer-events: none;
+  color: aliceblue;
+}

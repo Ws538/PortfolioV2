@@ -1,0 +1,41 @@
+footer {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  opacity: 0;
+  animation: fadeIn 2s ease-in 6s forwards;
+  z-index: 3;
+  position: relative;
+}
+
+.github-Button, .linkdin-Button {
+  height: 5vh;
+  z-index: 3;
+  width: 3em;
+  z-index: 3;
+  cursor: pointer;
+  transition: transform 0.2s ease-in;
+  margin-right: 1em;
+}
+
+.github-Button:hover, .linkdin-Button:hover { 
+  transform: scale(1.2);
+  background-color: rgb(163, 116, 255); 
+  border-radius: 50%;
+}
+
+.linkdin-Button:hover {
+  border-radius: 20%;
+}
+
+.iconContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+
