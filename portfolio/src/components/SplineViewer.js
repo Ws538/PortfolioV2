@@ -1,11 +1,12 @@
-import React, { useEffect } from 'react';
-import './SplineViewer.css';
+import React, { useEffect } from "react";
+import "./SplineViewer.css";
 
 export default function SplineViewer({ url1, url2 }) {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.type = 'module';
-    script.src = 'https://unpkg.com/@splinetool/viewer@0.9.290/build/spline-viewer.js';
+    const script = document.createElement("script");
+    script.type = "module";
+    script.src =
+      "https://unpkg.com/@splinetool/viewer@0.9.290/build/spline-viewer.js";
     document.body.appendChild(script);
 
     return () => {
@@ -16,17 +17,17 @@ export default function SplineViewer({ url1, url2 }) {
   return (
     <div>
       <div>
-      <iframe
-        title='Spline Design 1'
-        className="init-iframe"
-        src={url1}
-        width="100%"
-        height="100%"
-      ></iframe>
+        <iframe
+          title="Spline Design 1"
+          className="init-iframe"
+          src={url1}
+          width="100%"
+          height="100%"
+        ></iframe>
       </div>
       <div id="avatar">
         <iframe
-        title='Spline Design 2'
+          title="Spline Design 2"
           className="avatar"
           frameBorder={0}
           src={url2}
@@ -37,4 +38,3 @@ export default function SplineViewer({ url1, url2 }) {
     </div>
   );
 }
-

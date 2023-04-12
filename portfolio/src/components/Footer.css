@@ -13,10 +13,9 @@ footer {
 }
 
 .github-Button, .linkdin-Button {
-  height: 5vh;
+  height: 3rem;
   z-index: 3;
   width: 3em;
-  z-index: 3;
   cursor: pointer;
   transition: transform 0.2s ease-in;
   margin-right: 1em;
@@ -29,7 +28,7 @@ footer {
 }
 
 .linkdin-Button:hover {
-  border-radius: 20%;
+  border-radius: 25%;
 }
 
 .iconContainer {

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap");
+.about-me-container,
+.appearing-text-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+
+
+#about-me-text,
+#appearing-text {
+  width: 41rem;
+}
+
+.continueButton {
+  background: none;
+  border: none;
+  color: rgb(163, 116, 255);
+  padding: 0;
+  margin-left: 1rem;
+  scale: 2;
+  z-index: 3;
+  position: relative;
+}
+
+.continueButton:hover {
+  cursor: pointer;
+  color: rgb(104, 13, 231);
+}
+
+.appearing-text-container {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.appearing-text-container.visible {
+  opacity: 1;
+}

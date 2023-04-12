@@ -2,8 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import Footer from './Footer';
 import NavTabs from './NavTabs';
 import Home from './pages/home';
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/projects';
 import './PortfolioContainer.css';
 import SplineViewer from './SplineViewer';
+
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -13,6 +16,14 @@ export default function PortfolioContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
+    if (currentPage === 'About Me') {
+      return <AboutMe />;
+    }
+
+    if (currentPage === 'Projects') {
+      return <Projects />;
+    }
+    
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
