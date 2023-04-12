@@ -54,7 +54,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               </a>
             </li>
           )}
-          {currentPage !== "projects" && (
+          {currentPage !== "Projects" && (
             <li>
               <a
                 href="#projects"

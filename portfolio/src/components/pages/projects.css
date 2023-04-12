@@ -1,0 +1,46 @@
+body {
+  overflow: initial;
+  overflow-x: hidden;
+}
+
+.whats-for-dinner-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.whats-for-dinner {
+  width: 20vw;
+  margin-right: 10%;
+  border-radius: 2rem;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.chat-box-container {
+  display: flex;
+  justify-content: row;
+}
+
+.chat-box {
+  width: 20vw;
+  margin-left: 10%;
+  border-radius: 2rem;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.social-network-container {
+  display: flex;
+  justify-content: row;
+}
+
+.social-network {
+  width: 20vw;
+  height: 21vh;
+  margin-left: 10%;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  z-index: 3;
+  cursor: pointer;
+}
