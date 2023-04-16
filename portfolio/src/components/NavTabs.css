@@ -22,10 +22,6 @@ header {
   transform: scale(1.13)
 }
 
-.headerButton::after {
-  background-color: rgb(104, 13, 231);
-}
-
 #nav-links {
   position: fixed;
   top: 1rem;
