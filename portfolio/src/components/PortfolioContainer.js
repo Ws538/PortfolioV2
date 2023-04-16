@@ -4,6 +4,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/home';
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/projects';
+import ContactMe from './pages/contactMe';
 import './PortfolioContainer.css';
 import SplineViewer from './SplineViewer';
 
@@ -23,6 +24,11 @@ export default function PortfolioContainer() {
     if (currentPage === 'Projects') {
       return <Projects />;
     }
+
+    if (currentPage === 'Contact Me') {
+      return < ContactMe />
+    }
+
     
   };
 

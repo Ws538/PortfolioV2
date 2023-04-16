@@ -7,10 +7,11 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^4.6.2",
-    "gasp": "^3.11.2",
+    "gsap": "^3.11.5",
     "react": "17.0.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "17.0.2",
+    "react-icons": "^4.8.0",
     "react-scripts": "5.0.1",
     "split-type": "^0.3.3",
     "web-vitals": "^2.1.4"

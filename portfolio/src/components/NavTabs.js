@@ -67,13 +67,13 @@ function NavTabs({ currentPage, handlePageChange }) {
               </a>
             </li>
           )}
-          {currentPage !== "Contact" && (
+          {currentPage !== "Contact Me" && (
             <li>
               <a
                 href="#contact"
-                onClick={() => handlePageChange("Contact")}
+                onClick={() => handlePageChange("Contact Me")}
                 className={
-                  currentPage === "Contact" ? "nav-link active" : "nav-link"
+                  currentPage === "Contact Me" ? "nav-link active" : "nav-link"
                 }
               >
                 Contact Me
