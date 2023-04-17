@@ -15,11 +15,11 @@ const ContactMe = () => {
     <div className="contact-me-container">
       <h2 className="contact-me-h2">Contact Me</h2>
       <ul className="linksUL">
-        <li>
+      <li>
           <FiMail className="icon" />
-          <button onClick={openEmail} className="email-button">
+          <a className="links" onClick={openEmail} href={"#email"} style={{ cursor: "pointer" }}>
             {email}
-          </button>
+          </a>
         </li>
         <li>
           <FiGithub className="icon" />
