@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb16af2f.css",
-    "main.js": "/static/js/main.5ee83a55.js",
-    "static/media/Whats-for-dinner.png": "/static/media/Whats-for-dinner.c3d1c17dc90ef5329366.png",
-    "static/media/Chatbox.png": "/static/media/Chatbox.6bf002628c86181755a4.png",
-    "static/media/social-network-apis.jpeg": "/static/media/social-network-apis.43fe8ed69eac2c308300.jpeg",
-    "index.html": "/index.html",
-    "main.cb16af2f.css.map": "/static/css/main.cb16af2f.css.map",
-    "main.5ee83a55.js.map": "/static/js/main.5ee83a55.js.map"
+    "main.css": "/William_Su_Portfolio/static/css/main.cb16af2f.css",
+    "main.js": "/William_Su_Portfolio/static/js/main.fd4f5fb3.js",
+    "static/media/Whats-for-dinner.png": "/William_Su_Portfolio/static/media/Whats-for-dinner.c3d1c17dc90ef5329366.png",
+    "static/media/Chatbox.png": "/William_Su_Portfolio/static/media/Chatbox.6bf002628c86181755a4.png",
+    "static/media/social-network-apis.jpeg": "/William_Su_Portfolio/static/media/social-network-apis.43fe8ed69eac2c308300.jpeg",
+    "index.html": "/William_Su_Portfolio/index.html",
+    "main.cb16af2f.css.map": "/William_Su_Portfolio/static/css/main.cb16af2f.css.map",
+    "main.fd4f5fb3.js.map": "/William_Su_Portfolio/static/js/main.fd4f5fb3.js.map"
   },
   "entrypoints": [
     "static/css/main.cb16af2f.css",
-    "static/js/main.5ee83a55.js"
+    "static/js/main.fd4f5fb3.js"
   ]
 }
