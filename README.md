@@ -8,7 +8,7 @@ Welcome to my Portfolio. This was created using React, and incoporates 3D animat
 
 Click the following link to access my Portfolio. Once into the home page, click through the menu to see the following pages : About me, Projects and Contact Me. 
 
-(click me)[portfolio.here]
+[Portfolio_Link](https://ws538.github.io/William_Su_Portfolio/)
 
 ![image1](./portfolio/src/components/assets/Home.png)
 ![image2](./portfolio/src/components/assets/AboutMe.png)
