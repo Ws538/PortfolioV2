@@ -10,10 +10,10 @@ Click the following link to access my Portfolio. Once into the home page, click 
 
 (click me)[portfolio.here]
 
-![image1](./src/components/assets/Home.png)
-![image2](./src/components/assets/AboutMe.png)
-![image3](./src/components/assets/Projects.png)
-![image4](./src/components/assets/Contact.png)
+![image1](./portfolio/src/components/assets/Home.png)
+![image2](.portfolio/src/components/assets/AboutMe.png)
+![image3](.portfolio/src/components/assets/Projects.png)
+![image4](.portfolio/src/components/assets/Contact.png)
 
 # License 
 
